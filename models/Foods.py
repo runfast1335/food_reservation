@@ -12,6 +12,7 @@ class Foods(models.Model):
 
     record_file = fields.Many2many('ir.attachment', attachment=True, string="پیوست")
     record_fileb = fields.Binary(string="پیوست باینری")
+    record_filec = fields.Binary(string="پیوست سیییییی")
     show_peyvast = fields.Boolean(string='نمایش فایل', default=False)
 
 

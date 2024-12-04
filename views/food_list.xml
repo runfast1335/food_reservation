@@ -44,8 +44,8 @@
 <!--                            <field name="record_file" widget="binary"-->
 <!--                                   />-->
                             <field name="record_file" widget="many2many_binary"/>
-                            <field name="record_fileb"
-                            />
+                            <field name="record_fileb" widget="file"/>
+                            <field name="record_filec" widget="Sign" />
                         </group>
                         <group>
                             <field name="food_type"/>
